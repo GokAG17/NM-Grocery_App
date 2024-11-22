@@ -1,0 +1,25 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+client/.env
+server/.env
+
+# Build and output directories
+client/dist/
+client/build/
+server/dist/
+server/build/
+
+# Logs
+client/*.log
+server/*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
